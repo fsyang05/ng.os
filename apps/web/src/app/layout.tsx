@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={geistSans.className}>
+      <body className="min-h-svh w-full">
         {children}
       </body>
     </html>
